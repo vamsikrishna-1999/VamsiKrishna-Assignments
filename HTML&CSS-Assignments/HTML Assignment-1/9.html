@@ -1,0 +1,55 @@
+<html>
+<head>
+<style>
+.item1 { grid-area: topleft; }
+.item2 { grid-area: topright; }
+.item3 { grid-area: botleft; }
+.item4 { grid-area: botright; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'topleft topleft topright topright'
+    'botleft botleft botright botright'
+    'botleft botleft botright botright'
+    'botleft botleft botright botright';
+  grid-gap: 1px;
+  
+}
+.item1
+{
+    background-color:darkgrey;
+}
+.item2
+{
+    background-color:grey;
+}
+.item3
+{
+    background-color:grey;
+}
+.item4
+{
+    background-color:darkgray;
+}
+
+.grid-container > div {
+  
+  border: 1px solid black;
+  padding: 1px 0;
+  font-size: 20px;
+}
+
+</style>
+</head>
+<body>
+
+<div class="grid-container">
+  <div class="item1">topleft</div>
+  <div class="item2">topright</div>
+  <div class="item3">botleft</div>  
+  <div class="item4">botright</div>
+</div>
+
+</body>
+</html>

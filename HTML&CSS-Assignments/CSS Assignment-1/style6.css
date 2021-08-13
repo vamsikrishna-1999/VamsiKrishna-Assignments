@@ -1,0 +1,29 @@
+div.a
+{
+    border: 10px solid black;
+    border-width:medium;
+    background-color: lightblue;
+    line-height: 200%;
+}
+div.b
+{
+    border: 10px solid black;
+    border-width: thick;
+    background-color: lightblue;
+    line-height: 200%;
+}
+div.c
+{
+    border: 1px solid black;
+    
+    background-color: lightblue;
+    line-height: 200%;
+}
+
+div.d
+{
+    min-height: 40px;
+    min-width: 400px;
+    background-color: lightblue;
+    line-height: 200%;
+}

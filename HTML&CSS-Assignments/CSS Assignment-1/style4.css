@@ -1,0 +1,16 @@
+div.a
+{
+    
+    border: 1px solid black;
+    
+    
+}
+tr{
+    border: 1px solid green;
+}
+th,td{
+    border: 1px solid green;
+}
+th{
+    background-color: green;
+}
