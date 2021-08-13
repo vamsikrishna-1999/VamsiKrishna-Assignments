@@ -1,0 +1,49 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <script src="test16.js"></script>
+        <form id="my=form" name="myform" onsubmit="return validate()"> 
+            <label for="name">Name:</label>
+            <input type="text" name="name" placeholder="Enter your name"><br><br>
+
+            <label for="Email">Email:</label>
+            <input type="email" name="Email" placeholder="Enter your mail Id"><br><br>
+
+            <label for="Toppings" ><b>Toppings:</b></label><br><br>
+            <input type="checkbox" id="1" name="Toppings" value="Extra Cheese">Extra Cheese
+            <input type="checkbox" id="2" name="Toppings" value="Pepperoni">Pepperoni
+            <input type="checkbox" id="3" name="Toppings" value="Olives">Olives
+            <input type="checkbox" id="4" name="Toppings" value="Pepper">Pepper
+            <input type="checkbox" id="5" name="Toppings" value="Bacon">Bacon
+            <input type="checkbox" id="6" name="Toppings" value="Tomatoes">Tomatoes
+            <input type="checkbox" id="7" name="Toppings" value="Mushrooms">Mushrooms<br><br>
+
+            <label for="delivery"><b>How do you want to get your Pizza!</b></label>
+            <input type="radio" id="11" name="delivery" value="Delivery">Delivery
+            <input type="radio" id="21" name="delivery" value="Pickup"> PickUp<br><br>
+
+            <label for="tip"><b>Tip?</b></label><br>
+            <select name="tip" id="drop">
+                <option name="tip" Value="15">15</option>
+                <option name="tip" Value="20">20</option>
+                <option name="tip" Value="25">25</option>
+            </select><br><br>
+
+            <label for="address">Address:</label><br>
+            <textarea name="address" id="address"></textarea><br><br>
+
+            <label for="submit"></label>
+            <input type="button" value="Submit" name="submit">
+
+            <label for="Reset"></label>
+            <input type="button" value="Reset" name="Reset">
+
+            <label for="summary"></label>
+            <input type="submit" value="Show Summary" name="summary">
+            
+        </form>
+        <div id="message" style="width: 10px;  height: 10px;"></div>
+    </body>
+</html>
